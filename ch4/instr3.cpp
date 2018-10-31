@@ -1,5 +1,7 @@
 // instr3.cpp -- reading more than one word with get() & get()
+
 #include <iostream>
+
 int main()
 {
     using namespace std;
