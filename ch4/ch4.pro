@@ -8,4 +8,7 @@ SOURCES += \
 #        instr2.cpp
 #        instr3.cpp
 #        numstr.cpp
-        strtype1.cpp
+#        strtype1.cpp
+#        strtype2.cpp
+#        strtype3.cpp
+        strtype4.cpp
