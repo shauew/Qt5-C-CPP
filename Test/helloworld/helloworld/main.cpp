@@ -6,7 +6,9 @@ int main(int argc, char *argv[])
     QApplication a(argc, argv);
     Dialog w;
 
-    w.resize  //esize(300, 400);
+//    w.resize(300, 400);
+
+    w.setWindowTitle("Qt hello world");
 
     w.show();
 
