@@ -5,7 +5,8 @@ TARGET = adueditor
 QT += serialbus serialport widgets
 QT += serialbus-private core-private
 
-FORMS += interface.ui
+FORMS += interface.ui \
+    mainwindow.ui
 SOURCES += main.cpp mainwindow.cpp modbustcpclient.cpp
 HEADERS += mainwindow.h plaintextedit.h modbustcpclient.h modbustcpclient_p.h
 
