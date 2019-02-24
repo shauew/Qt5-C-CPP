@@ -6,6 +6,10 @@ myWidget::myWidget(QWidget *parent) :
     ui(new Ui::myWidget)
 {
     ui->setupUi(this);
+
+    setTabOrder(ui->lineEdit, ui->spinBox);
+    setTabOrder(ui->spinBox, ui->pushButton);
+    setTabOrder(ui->pushButton, ui->checkBox);
 }
 
 myWidget::~myWidget()
